@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --text-color: #FFF
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: url("./img/Wallpaper-code.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    /* Utilizando o "!impontante" para "sobrescrever" o estilo aplicado pelo framework */
+    color: var(--text-color) !important;
+}
+
+input{
+    /* Utilizando o "!impontante" para "sobrescrever" o estilo aplicado pelo framework */
+    color: var(--text-color) !important;    
+}
+
+#form{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#div-input{
+    width: 31.25rem;
+    margin-top: 15px;
+}
+.palavra{
+    font-size: 2.25rem;
+}
+
+#div-palavra{
+    width: 31.25rem;
+    border: 2px var(--text-color) solid;
+    border-radius: 5px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
